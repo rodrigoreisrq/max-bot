@@ -53,7 +53,7 @@ if missing:                        # Se houver pacotes em falta, avisa e encerra
     sys.exit(1)                    # Código 1 = saída com erro
 
 # ───────────────────────────────────────────────────────────────────────────
-# 🔊 CONFIGURAÇÃO OPCIONAL DE VOLUME (PYCAW - só Windows)
+#  CONFIGURAÇÃO OPCIONAL DE VOLUME (PYCAW - só Windows)
 # ───────────────────────────────────────────────────────────────────────────
 VOLUME_AVAILABLE = False           # Flag: controle de volume disponível?
 volume_control = None              # Referência ao objeto de controle de volume
