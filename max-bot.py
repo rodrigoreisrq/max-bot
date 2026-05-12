@@ -35,7 +35,7 @@ import speech_recognition as sr   # Reconhecimento de fala via Google Speech API
 # ───────────────────────────────────────────────────────────────────────────
 # 🔧 VERIFICAÇÃO DE DEPENDÊNCIAS ANTES DE INICIAR
 # ───────────────────────────────────────────────────────────────────────────
-REQUIRED = {                       # Dicionário: módulo_python -> nome_do_pacote_pip
+REQUIRED =  {                       # Dicionário: módulo_python -> nome_do_pacote_pip
     "speech_recognition": "SpeechRecognition",
     "sounddevice": "sounddevice",
     "numpy": "numpy",
