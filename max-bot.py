@@ -40,6 +40,7 @@ REQUIRED =  {                       # Dicionário: módulo_python -> nome_do_pac
     "numpy": "numpy",
 }
 
+
 missing = []                       # Lista que acumula os pacotes não instalados
 for mod, pkg in REQUIRED.items():  # Itera cada par módulo/pacote
     try:
